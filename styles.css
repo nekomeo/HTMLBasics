@@ -11,9 +11,9 @@ p
 {
     color: red;
     font-family: Courier;
-    border: 1px solid powderblue;
+    /* border: 1px solid powderblue;
     padding: 30px;
-    margin: 50px;
+    margin: 50px; */
 }
 #p01
 {
@@ -22,4 +22,39 @@ p
 p.error
 {
     color: lightcyan;
+}
+table, th, td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 15px;
+}
+/* table
+{
+    border: 1px solid black;
+    border-spacing: 5px;
+}
+th
+{
+    padding: 15px;
+    text-align: left;
+} */
+
+table#t01
+{
+    width: 100%;
+    background-color: #f1f1c1;
+}
+table#t01 tr:nth-child(even)
+{
+    background-color: blueviolet;
+}
+table#t01 tr:nth-child(odd)
+{
+    background-color: peru;
+}
+table#t01 th
+{
+    color: white;
+    background-color: black;
 }

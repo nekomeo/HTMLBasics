@@ -8,40 +8,27 @@
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script> -->
     <!-- <link rel="stylesheet" href="styles.css"> -->
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-        .left, .right {
-            background-color: #2196F3;
-            padding: 20px;
-            float: left;
-            width: 20%; /* The width is 20%, by default */
-        }
-        .main {
-            background-color: #f1f1f1;
-            padding: 20px;
-            float: left;
-            width: 60%;  /* The width is 60%, by default */
-        }
-        .right {
-            background-color: #4CAF50;
-            padding: 20px;
-            float: left;
-            width: 20%;
-        }
-         /* Use a media query to add a breakpoiint at 800px */
-         @media screen and (max-width: 800px) {
-             .left, .main, .right {
-                 width: 100%;
-             }
-         }
-    </style>
 </head>
 <body>
-    <h1 style="font-size: 10vw">Hello World</h1>
-    <div class="left"><p>Left Menu</p></div>
-    <div class="main"><p>Main Content</p></div>
-    <div class="right"><p>Right Menu</p></div>
+    <p>Some programming code</p>
+    <code>
+        x = 5;<br>
+        y = 6;<br>
+        z = x + y
+    </code>
+    <p>HTML 'kbd' For Keyboard Input</p>
+    <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+    <br><p>HTML 'samp' For Program Output</p>
+    <p>If you input the wrong value, the program will return <samp>Error!</samp></p>
+    <br><p>HTML 'code' For Computer Code</p>
+    <pre>
+        <code>
+            x = 5;
+            y = 6;
+            z = x + y;
+        </code>
+    </pre>
+    <br><p>HTML 'var' For Variables</p>
+    <p>Einstein wrote: <var>E</var> = <var>mc</var><sup>2</sup>.</p>
 </body>
 </html>

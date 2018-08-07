@@ -10,25 +10,26 @@
     <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 <body>
-    <p>Some programming code</p>
-    <code>
-        x = 5;<br>
-        y = 6;<br>
-        z = x + y
-    </code>
-    <p>HTML 'kbd' For Keyboard Input</p>
-    <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
-    <br><p>HTML 'samp' For Program Output</p>
-    <p>If you input the wrong value, the program will return <samp>Error!</samp></p>
-    <br><p>HTML 'code' For Computer Code</p>
-    <pre>
-        <code>
-            x = 5;
-            y = 6;
-            z = x + y;
-        </code>
-    </pre>
-    <br><p>HTML 'var' For Variables</p>
-    <p>Einstein wrote: <var>E</var> = <var>mc</var><sup>2</sup>.</p>
+    <h3>Text Input</h3>
+    <form>
+        First name:<br>
+        <input type="text" name="firstname"><br>
+        Last name:<br>
+        <input type="text" name="lastname"><br>
+    </form>
+    <h3>Radio Button Input</h3>
+    <form>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other<br>
+    </form>
+    <h3>The Submit Button</h3>
+    <form action="/action_page.php"> <!-- Won't link anywhere -->
+        First name:<br>
+        <input type="text" name="firstname" value="Mickey"><br>
+        Last name:<br>
+        <input type="text" name="lastname" value="Mouse"><br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>

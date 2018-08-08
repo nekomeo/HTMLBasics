@@ -10,58 +10,24 @@
     <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 <body>
-    <h3>Input Type Password</h3>
-    <form>
-        User name:<br>
-        <input type="text" name="username"><br>
-        Password:<br>
-        <input type="password" name="psw">
-    </form>
-    <h3>Input Type Submit</h3>
-    <form action="/action_page.php">
-        First name:<br>
-        <input type="text" name="firstname" value="Mickey"><br>
-        Last name:<br>
-        <input type="text" name="lastname" value="Mouse"><br>
-        <input type="submit" value="Submit">
-    </form>
-    <h3>Input Type Reset</h3>
-    <form action="/action_page.php">
-        First name:<br>
-        <input type="text" name="firstname"><br>
-        Last name:<br>
-        <input type="text" name="lastname"><br>
-        <input type="submit" value="Submit">
-        <input type="reset">
-    </form>
-    <h3>Input Type Radio</h3>
-    <form>
-        <input type="radio" name="gender" value="male">Male<br>
-        <input type="radio" name="gender" value="female">Female<br>
-        <input type="radio" name="gender" value="other">Other<br>
-    </form>
-    <h3>Input Type Checkbox</h3>
-    <form>
-        <input type="checkbox" name="vehicle1" value="car">I have a car<br>
-        <input type="checkbox" name="vehicle2" value="bike">I have a bike<br>
-    </form>
-    <h3>Input Type Button</h3>
-    <form>
-        <input type="button" onclick="alert('Hello World!')" value="Click Me!">
-    </form>
-    <h3>Input Type Datetime-local</h3>
-    <form>
-        Birthday (date and time):<br>
-        <input type="datetime-local">
-    </form>
-    <h3>Input Restrictions</h3>
-    <form>
-        Quantity:<br>
-        <input type="number" name="points" min="0" max="100" step="10" value="30">
-    </form>
-    <h3>Input Type Range</h3>
-    <form>
-        <input type="range" name="points" min="1" max="10">
+    <h3>The value Attribute</h3>
+    First name:<br>
+    <input type="text" name="firstname" value="John">
+    <h3>The readonly Attribute</h3>
+    First name:<br>
+    <input type="text" name="firstname" value="John" readonly>
+    <h3>The disabled Attribute</h3>
+    First name:<br>
+    <input type="text" name="firstname" value="John" disabled>
+    <h3>The maxlength Attribute</h3>
+    First name:<br>
+    <input type="text" name="firstname" value="John" maxlength="10">
+    <h3>The autocomplete Attribute</h3>
+    <form action="/action_page.php" autocomplete="on">
+        First name:<input type="text" name="fname"><br>
+        Last name:<input type="text" name="lname"><br>
+        Email:<input type="email" name="email" autocomplete="off"><br>
+        <input type="submit">
     </form>
 </body>
 </html>
